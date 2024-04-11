@@ -1,5 +1,5 @@
 import { Button } from "@nextui-org/react";
-import "bootstrap-icons/font/bootstrap-icons.css";
+
 
 
 export default function Sandbox() {
@@ -29,7 +29,8 @@ export default function Sandbox() {
                     Shadow
                 </Button>
 
-                <i className="bi bi-browser-safari"></i>
+                <i className="bi bi-browser-safari" style={{ color: 'red' }}></i>
+
             </div>
         </>
     )
